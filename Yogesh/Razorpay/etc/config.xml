@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <yogesh_razorpay>
+                <active>0</active>
+                <model>Yogesh\Razorpay\Model\Payment\Method</model>
+                <title>Razorpay</title>
+                <order_status>pending_payment</order_status>
+                <payment_action>authorize</payment_action>
+                <allowspecific>0</allowspecific>
+                <sort_order>90</sort_order>
+            </yogesh_razorpay>
+        </payment>
+    </default>
+</config>
